@@ -1,0 +1,84 @@
+@media screen and (max-width: 992px) {
+  .banner > div {
+    width: 300px;
+  }
+  /* Navbar */
+  .hoten {
+    width: 5%;
+  }
+  .my-navbar-img {
+    display: none;
+  }
+
+  /* Target-info */
+  .info-target {
+    margin-bottom: 40px;
+  }
+
+  .target {
+    padding: 60px 40px;
+  }
+
+  .info {
+    padding: 60px 40px;
+  }
+
+  /* Định cỡ chữ cho các content và title */
+
+  .target-details {
+    line-height: 1.6;
+  }
+
+  .info-details {
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  /* Core-Info */
+  .core-info {
+    grid-template-columns: repeat(2, 37%);
+    justify-content: center;
+  }
+
+  /* Certificate */
+  .certificate-title {
+    width: 90%;
+  }
+
+  /* Định kích thước ảnh */
+  .certificate-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .certificate-content {
+    grid-template-columns: repeat(2, 45%);
+  }
+
+  /* Bỏ sử dụng FLex để sắp xếp 1 content */
+  .certificate-details {
+    display: block;
+  }
+
+  /* Project */
+  .project-title {
+    width: 90%;
+  }
+
+  .project-content {
+    grid-template-columns: repeat(3, 30%);
+  }
+
+  /* Xử lý bảng trong project hiển thị theo hàng */
+  .project-table {
+    height: 400px;
+  }
+
+  .project-table td:first-child {
+    width: auto;
+  }
+
+  .project-member {
+    flex-direction: column;
+  }
+}

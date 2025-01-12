@@ -1,0 +1,81 @@
+@media screen and (max-width: 576px) {
+  /* Xác định chiều cao ảnh nền */
+  .banner-img {
+    height: 350px;
+  }
+  /* Navbar */
+  .my-navbar {
+    display: block;
+  }
+
+  .my-navbar-item {
+    width: 100%;
+    padding: 0 20px;
+    text-align: start;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .hoten {
+    display: none;
+  }
+
+  /* INFO - TARGET: Sử dụng FLEX tạo 2 cột có cùng chiều rộng*/
+  .info-target {
+    display: block;
+  }
+
+  .target {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  /* Core-Info */
+  .core-info {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  /* Certificate */
+  .certificate-content {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  /* Tạo border ở giữa */
+  .certificate-details:nth-child(even)::before {
+    display: none;
+  }
+
+  /* Sử dụng border-bottom cho hàng cuối */
+  .certificate-details:last-child {
+    border-bottom: #d6c08d 1px solid;
+  }
+
+  /* Project */
+  .project-content {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  /* Xử lý bảng trong project hiển thị theo hàng */
+  .project-table {
+    height: auto;
+  }
+
+  .project-table td:first-child {
+    width: 75px;
+  }
+
+  .project-info {
+    flex-direction: column;
+    line-height: 2.5;
+    padding-left: 20px;
+  }
+
+  .project-details h3 {
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 15px;
+  }
+}
